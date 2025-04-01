@@ -1,0 +1,65 @@
+#Install python on ec2
+sudo yum update -y
+sudo yum install python3 -y
+Install pip3 on Amazon Linux 2
+sudo yum update -y
+sudo yum install python3-pip -y
+pip3 --version
+
+#Instal git
+sudo yum install git -y
+
+#Install Terraform
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum install -y terraform
+
+
+pip3 install openai
+pip3 show openai
+pip3 install flask
+pip3 show flask
+
+npm install mongodb
+
+brew install poppler tesseract libmagic
+
+pip install -Uq "unstructured[all-docs]" pillow lxml
+pip install -Uq chromadb tiktoken
+pip install -Uq langchain langchain-community langchain-openai langchain-groq
+pip install -Uq python-dotenv
+pip install -Uq langchain-groq
+pip install python-poppler
+pip install unstructured
+pip install python-dotenv
+
+pip install streamlit rag langchain unstructured pymongo sentence-transformers chromadb pdfplumber opencv-python-headless pdf2image
+
+pip install python-decouple
+
+pip install lark
+pip install -U langchain-openai
+pip install -U langchain-core
+
+# used to open pdf file
+pip install fitz
+
+pip uninstall pymupdf -y
+pip install pymupdf --no-cache-dir
+
+brew tap mongodb/brew
+brew install mongodb-community@7.0
+# start mongodb 
+brew services start mongodb-community@7.0
+# verify mongodb is runnin
+
+# start mongodb
+mongosh
+# show db's 
+show dbs
+
+
+
+python3 -m venv jfk_env
+source jfk_env/bin/activate  # Activate the environment
+
